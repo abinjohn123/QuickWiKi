@@ -26,9 +26,7 @@ body {
 	font-weight: 600;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.search {
-	padding: 1em;
-}
+
 #url {
 	font-size: 1em;
 	width: 30%;
@@ -46,7 +44,6 @@ body {
 	background-color: #395b64;
 	color: #e7f6f2;
 	cursor: pointer;
-	margin-left: 0.8em;
 }
 
 .header {
@@ -83,6 +80,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+    padding: 1em;
+    gap: 0.7em;
 }
 
 .moto {
@@ -230,7 +229,6 @@ a:hover {
 @media only screen and (max-width: 767px) {
 	#url {
 		width: 40%;
-		margin-bottom: 0.5rem;
 	}
 }
 
@@ -241,7 +239,6 @@ a:hover {
 	#submitbtn,
 	#url {
 		width: 100%;
-		margin-bottom: 0.5rem;
 	}
 	.url_flag {
 		word-break: break-all;
